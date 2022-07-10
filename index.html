@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="icon" href="dist/img/header/home.ico" type="img/ico">
+    <link rel="stylesheet" href="dist/css/main.min.css">
+    <title>Сталь-Монтаж</title>
+</head>
+<body>
+
+<div class="wrp">
+    <header class="header">
+        <div class="container header__container">
+            <div class="header__top-menu">
+                <a href="index.html" class="header__logo">
+                    <img src="dist/img/header/logo.png" alt="logo">
+                    <h3 class="header__location loc-mob">Работаем в Екатеринбурге и области</h3>
+                </a>
+                <h3 class="header__location loc-decst">Работаем в Екатеринбурге и области</h3>
+                <a href="tel:+7(999)566-01-78" class="header__phone number-decst">
+                    <img src="dist/img/header/phone.svg" alt="phone">
+                    <span class="header__tel-numer">+7 (999) 566-01-78</span>
+                </a>
+                <div class="header__btn-wrp">
+                    <button type="button" class="header__top-btn">Заказать звонок</button>
+                    <a href="tel:+7(999)566-01-78" class="header__phone number-mob">
+                        <img src="dist/img/header/phone.svg" alt="phone">
+                        <span class="header__tel-numer">+7 (999) 566-01-78</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="header__bottom-menu fix-block">
+            <div class="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav class="menu">
+                <ul class="menu__list">
+                    <li class="menu__item"><a href="#">Преимущества</a></li>
+                    <li class="menu__item"><a href="#">Виды работ</a></li>
+                    <li class="menu__item"><a href="#">FAQ</a></li>
+                    <li class="menu__item"><a href="#">Порядок работ</a></li>
+                    <li class="menu__item"><a href="#">Стоимость услуг</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container main__container">
+            <div class="main__content-wrp">
+                <div class="main__content-left">
+                    <h1 class="main__title">Быстрый монтаж металлоконструкций и сэндвич-панелей</h1>
+                    <div class="main__theses">
+                        <div class="main__theses-item">
+                            <img src="dist/img/main/experience.svg" alt="img">
+                            <span>Опыт больше 8 лет</span>
+                        </div>
+                        <div class="main__theses-item">
+                            <img src="dist/img/main/clock.svg" alt="img">
+                            <span>Максимально сжатые сроки</span>
+                        </div>
+                    </div>
+                    <button type="button" class="main__btn">Получить консультацию</button>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <section class="theses">
+        <div class="container">
+            <div class="theses__cards">
+                <div class="theses__card-item">
+                    <img class="theses__border" src="dist/img/theses/border.svg" alt="img">
+                    <img class="theses__icon" src="dist/img/theses/work.svg" alt="img">
+                    <p>Специалисты<br> со стажем <span>от 5 лет</span></p>
+                </div>
+                <div class="theses__card-item">
+                    <img class="theses__border" src="dist/img/theses/border.svg" alt="img">
+                    <img class="theses__icon" src="dist/img/theses/garant.svg" alt="img">
+                    <p>Гарантия на работы<br> <span>24 месяца</span></p>
+                </div>
+                <div class="theses__card-item">
+                    <img class="theses__border" src="dist/img/theses/border.svg" alt="img">
+                    <img class="theses__icon" src="dist/img/theses/ruler.svg" alt="img">
+                    <p>Оценка объема работ<br>на объекте <span>бесплатно</span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Модалки -->
+    <div class="modal-body _body-call">
+        <form action="#" class="form call-form">
+            <span class="form__cross-call">&times;</span>
+            <p class="form__title">Заказ обратного звонка</p>
+            <input type="text" class="form__name input" placeholder="Имя">
+            <input type="tel" class="form__phone input" placeholder="+7 (___) ___-__-__">
+            <button type="submit" class="form__btn">Заказать звонок</button>
+        </form>
+    </div>
+
+    <div class="modal-body _body-consult">
+        <form action="#" class="form consult-form">
+                <span class="form__cross-consult">&times;</span>
+                <p class="form__title">Заказать консультацию</p>
+                <input type="text" class="form__name input" placeholder="Имя">
+                <input type="email" class="form__email input" placeholder="Email">
+                <input type="tel" class="form__phone input" placeholder="+7 (___) ___-__-__">
+                <textarea class="form__area-consult" placeholder="Текст сообщения"></textarea>
+                <button type="submit" class="form__btn">Отправить</button>
+        </form>
+    </div>
+</div>
+
+
+<script src="dist/js/main.min.js"></script>
+</body>
+</html>
